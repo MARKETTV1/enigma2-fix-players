@@ -25,7 +25,7 @@ printf "${CYAN}║${RESET}                                                      
 printf "${CYAN}║${RESET}        ${YELLOW}Fix Players Script  —  fix_players.sh${RESET}         ${CYAN}║${RESET}\n"
 printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
 printf "${CYAN}║${RESET}              ${GREEN}By : KARIM ABU RIDA${RESET}                      ${CYAN}║${RESET}\n"
-printf "${CYAN}║${RESET}         ${WHITE}Reinstall Enigma2 Media Players${RESET}               ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}         ${WHITE}Install Enigma2 Media Players${RESET}               ${CYAN}║${RESET}\n"
 printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
 printf "${CYAN}╚══════════════════════════════════════════════════════╝${RESET}\n"
 echo ""
