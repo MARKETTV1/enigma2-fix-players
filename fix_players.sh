@@ -23,14 +23,17 @@ opkg remove ffmpeg --force-depends
 echo ""
 echo "[5/8] Installing ffmpeg..."
 opkg install ffmpeg
+sleep 5
 
 echo ""
 echo "[6/8] Installing exteplayer3..."
 opkg install exteplayer3
+sleep 5
 
 echo ""
 echo "[7/8] Installing serviceapp..."
 opkg install enigma2-plugin-systemplugins-serviceapp
+sleep 5
 
 echo ""
 echo "[8/8] Reinstalling gstplayer..."
@@ -39,5 +42,5 @@ opkg install gstplayer
 
 echo ""
 echo "===================================="
-echo "  Done successfully! ✔"
+echo "     Done successfully! ✔          "
 echo "===================================="
