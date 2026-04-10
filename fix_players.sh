@@ -1,10 +1,37 @@
 #!/bin/sh
 
-echo "===================================="
-echo "  Enigma2 Players Reinstall"
-echo "===================================="
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+WHITE='\033[1;37m'
+RESET='\033[0m'
+
+clear
 
 echo ""
+printf "${CYAN}╔══════════════════════════════════════════════════════╗${RESET}\n"
+printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${WHITE} ███████╗███╗   ██╗██╗ ██████╗ ███╗   ███╗ █████╗ ${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${WHITE} ██╔════╝████╗  ██║██║██╔════╝ ████╗ ████║██╔══██╗${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${CYAN} █████╗  ██╔██╗ ██║██║██║  ███╗██╔████╔██║███████║${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${CYAN} ██╔══╝  ██║╚██╗██║██║██║   ██║██║╚██╔╝██║██╔══██║${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${PURPLE} ███████╗██║ ╚████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}  ${PURPLE} ╚══════╝╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝${RESET} ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}        ${YELLOW}Fix Players Script  —  fix_players.sh${RESET}         ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}              ${GREEN}By : KARIM ABU RIDA${RESET}                      ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}         ${WHITE}Reinstall Enigma2 Media Players${RESET}               ${CYAN}║${RESET}\n"
+printf "${CYAN}║${RESET}                                                      ${CYAN}║${RESET}\n"
+printf "${CYAN}╚══════════════════════════════════════════════════════╝${RESET}\n"
+echo ""
+
+sleep 2
+
 echo "[1/8] Updating package list..."
 opkg update
 
@@ -41,6 +68,7 @@ opkg remove gstplayer
 opkg install gstplayer
 
 echo ""
-echo "===================================="
-echo "     Done successfully! ✔          "
-echo "===================================="
+printf "${GREEN}╔══════════════════════════════════════╗${RESET}\n"
+printf "${GREEN}║   Done Successfully!  ✔               ║${RESET}\n"
+printf "${GREEN}╚══════════════════════════════════════╝${RESET}\n"
+echo ""
